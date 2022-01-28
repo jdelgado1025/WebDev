@@ -51,7 +51,11 @@ body {
   margin: 0 10%;
 }
 
-.color-section {
+h2 {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.336);
+}
+
+.container {
   border-bottom: 3px dotted gray;
   padding: 10px;
   margin: 10px auto;
@@ -82,4 +86,55 @@ body {
 .steelers-red {
   background-color: rgb(198, 12, 48);
   color: white;
+}
+
+.font-container {
+  margin: 0 auto;
+}
+
+.font-panel {
+  display: inline-block;
+  padding: 5px;
+  width: 45%;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.playfair {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.oxygen {
+  font-family: 'Oxygen', serif;
+}
+
+.manrope {
+  font-family: 'Manrope', serif;
+}
+
+.sedgwick {
+  font-family: 'Sedgwick Ave', sans-serif;
+}
+
+.normal {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
 }
