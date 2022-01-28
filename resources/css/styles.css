@@ -49,9 +49,16 @@
 
 body {
   margin: 0 10%;
+  font-family: 'Playfair Display', sans-serif;
 }
 
-h2 {
+li span {
+  font-weight: 600;
+  font-family: 'Manrope';
+}
+
+.subheading {
+  font-family: 'Oxygen', serif;
   border-bottom: 2px solid rgba(128, 128, 128, 0.336);
 }
 
